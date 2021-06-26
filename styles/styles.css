@@ -272,7 +272,7 @@ nav {
   letter-spacing: 1px;
 }
 
-h1 {
+.homeH1 {
   font-family: "Walter Turncoat", cursive;
   font-size: 145.2px;
   position: absolute;
@@ -348,18 +348,37 @@ header img {
 
 .about .icons {
   color: #474BB5;
-  font-size: 32px;
+  font-size: 30px;
   position: relative;
 }
 
-.fa-home {
+.fas {
   position: absolute;
-  left: -50px;
-  top: 30px;
+  left: 2px;
+  top: 3px;
+}
+
+.fa-file {
+  font-size: 26px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.fa-phone {
+  font-size: 26px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.newSpaceIcon, .communityIcon, .blogIcon, .getInTouchIcon {
   background-color: #08FDED;
   border-radius: 50%;
   height: 40px;
   width: 40px;
+  top: 73px;
+  left: -57px;
 }
 
 button {
@@ -490,4 +509,118 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+.contactHeader {
+  background-image: url(./funplace-assets/contact-header.jpg);
+}
+
+.contactH1 {
+  color: white;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 121.5px;
+  line-height: 125.6px;
+  padding-top: 10%;
+}
+
+.contactSection {
+  background-color: #03697C;
+  height: 60vh;
+  position: relative;
+}
+
+.contactFormContainer {
+  background: #474BB5;
+  padding: 40px;
+  width: 65%;
+  margin-left: 29%;
+  position: absolute;
+  right: 50;
+  bottom: 150px;
+  -webkit-box-shadow: 15px 15px #08FDED;
+          box-shadow: 15px 15px #08FDED;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+label,
+input[type=submit] {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+input,
+textarea {
+  background-color: #474BB5;
+  color: white;
+  padding: 20px;
+  width: 90%;
+}
+
+input[type=text], input[type=email] {
+  width: 44%;
+  border: none;
+}
+
+input[type=text], input[type=email] {
+  border-bottom: 1px solid #F3FAFF;
+}
+
+input[type=text] {
+  margin-right: 20px;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid #F3FAFF;
+  margin-top: 50px;
+}
+
+input[type=submit] {
+  background-color: #08FDED;
+  color: #044779;
+  padding: 15px 30px;
+  font-family: "Walter Turncoat", cursive;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  cursor: pointer;
+  width: 90%;
+}
+
+.contactInfo {
+  margin-left: 5%;
+  padding: 100px 0;
+}
+
+.contactInfo p {
+  margin: 0;
+}
+
+.firstP {
+  padding-bottom: 20px;
+}
+
+.socialMedia i {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.fab {
+  padding: 20px 10px;
 }

@@ -1,0 +1,252 @@
+body {
+  color: white;
+}
+.wrapper {
+  width: 95%;
+  max-width: 1400px;
+  margin: 0  auto;
+}
+
+p{
+  font-family: $fontRoboto;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+img {
+  width: 100%;
+}
+
+// header sections
+
+header {
+  background-image: url(./funplace-assets/home-header.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: white;
+}
+
+nav {
+  font-family: $fontRoboto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 1px;
+}
+
+.homeH1 {
+  font-family: $fontWalter;
+  font-size: 145.2px;
+  position: absolute;
+  top:410%;
+}
+.headerContainer{
+  position: relative;
+}
+
+header li {
+  list-style-type: none;
+  padding-top: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px 
+}
+
+header a:hover {
+  border-bottom: 2px solid $brightAqua;
+}
+
+header ul {
+  display: flex;
+  margin: 0;
+}
+
+header img {
+  height: 500px;
+  width:500px;
+  position: absolute;
+  top:36%;
+  right:0%;
+}
+
+// about section #1
+
+.about {
+  background-color:$deepTurq;
+}
+
+.about h2 {
+  margin: 0;
+  font-family: $fontWalter;
+  font-size: 45px;
+  line-height: 99.8px;
+}
+
+
+.about {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.aboutTop, .aboutBottom {
+  display: flex;    
+  justify-content: space-between;
+  flex: 1 0 auto;
+}
+
+.newSpace, .blog, .community, .getInTouch {
+  padding: 0 50px;
+  position: relative;
+}
+
+.about .icons {
+  color: $frenchBlue;
+  font-size: 30px;
+  position: relative;
+  
+}
+
+.fas {
+  position: absolute;
+  left: 2px;
+  top: 3px;
+}
+.fa-file {
+  font-size: 26px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.fa-phone {
+  font-size: 26px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.newSpaceIcon, .communityIcon, .blogIcon, .getInTouchIcon {
+  background-color: $brightAqua;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  top:73px;
+  left:-57px;
+}
+
+button {
+  padding:5px;
+  color:$darkishBlue;
+  border: none;
+  font-size:25.4px;
+  text-transform: uppercase;
+  font-family:$fontWalter;
+  background: $brightAqua;
+  line-height: 41.6px;
+}
+
+// 2nd about section
+
+.moreAbout {
+  background-color: $frenchBlue;
+}
+.moreAboutContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourPrograms, .newLocations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  padding: 50px 0;
+  gap: 60px;  
+}
+
+.moreAbout h2, .roadTrip h2, .events h2 {
+  font-family: $fontWalter;
+  font-size: 40px;
+  line-height: 41.6px;
+}
+
+.newLocations img {
+  box-shadow: 15px 15px $brightAqua;
+}
+
+.ourPrograms img {
+  box-shadow: -15px 15px $brightAqua;
+}
+
+.newLocations button {
+  margin-left: 382px;
+}
+
+// Road Trips section
+
+.roadTrip{
+  background: $deepTurq;
+  padding:100px;
+  text-align: center;  
+}
+
+.roadTripImg {
+  background-image: url(./funplace-assets/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+  width: 100%;
+  margin:0;
+  background-color: $deepTurq;
+}
+
+.roatTripContainer {
+  margin-bottom:60px;
+}
+
+// Events section
+.events{
+  background-color: $deepTurq;
+  padding: 90px;
+}
+.eventsContainer {
+  display: flex;
+  justify-content: space-between; 
+  }
+
+.eventsImg {
+  width: 30%;
+  }
+.events img{
+  box-shadow: -15px 15px $brightAqua;  
+}
+
+.eventsText {
+  width: 60%;
+}
+
+// Gallery section
+.gallery{
+  background-color: $frenchBlue;
+  padding: 60px;
+}
+.galleryContainer {
+  display: flex;
+  gap: 30px;
+}
+
+footer{
+  background-color: $darkishBlue;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p{
+  margin: 0;
+}

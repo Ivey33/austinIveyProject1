@@ -1,0 +1,108 @@
+.contactHeader {
+  background-image: url(./funplace-assets/contact-header.jpg);
+  }
+
+  .contactH1 {
+    color: white;
+    font-family: $fontWalter;
+    font-size: 121.5px;
+    line-height: 125.6px;
+    padding-top: 10%;
+  }
+
+  // contact Form section
+
+  .contactSection {
+    background-color: $deepTurq;
+    height: 60vh;
+    position: relative;
+
+
+  }
+
+  .contactFormContainer{
+    background: $frenchBlue;
+    padding: 40px;
+    width: 65%;
+    margin-left: 29%;
+    position: absolute;
+    right: 50;
+    bottom:150px;
+    box-shadow:15px 15px $brightAqua ;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+label,
+input[type="submit"] {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+input,
+textarea {
+  background-color:$frenchBlue;
+  color: white;
+  padding: 20px;
+  width: 90%;
+  }
+
+input[type="text"], input[type="email"] { 
+  // border: none;
+  width: 44%;
+  border: none;
+}
+
+input[type="text"], input[type="email"] { 
+  border-bottom: 1px solid $paleGrey;
+}
+
+input[type="text"] {
+  margin-right: 20px;
+}
+
+
+
+textarea {
+  resize: none;
+  border: 1px solid $paleGrey;
+  margin-top: 50px;
+}
+
+input[type="submit"] {
+  background-color:$brightAqua;
+  color: $darkishBlue;
+  padding: 15px 30px;
+  font-family: $fontWalter;
+  align-self: flex-start;
+  cursor: pointer;
+  width: 90%;
+}
+
+.contactInfo {
+  margin-left:5% ;
+  padding:100px 0;
+}
+
+.contactInfo p {
+  margin: 0;
+}
+
+.firstP {
+  padding-bottom: 20px;
+}
+
+.socialMedia i {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.fab {
+  padding:20px 10px;
+}
