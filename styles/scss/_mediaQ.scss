@@ -1,0 +1,75 @@
+@media (max-width: 1240px) {
+
+  // home page
+  .homeHeader img {
+    display: none;
+  }
+  .homeHeader h1 {
+      font-size: 10rem;
+  }
+  .moreAboutContainer {
+    flex-direction: column;
+    padding:0 100px
+    
+  }
+  .ourPrograms, .newLocations {
+    width: 100%;
+  }
+  .newLocations button {
+    margin: 0;
+  }
+  // contact page
+  .contactSection {
+    height: 110vh;
+  }
+
+  .contactFormContainer {
+    width: 90%;
+    right: 50px;
+    bottom:150px;
+  }
+
+  .contactInfo {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  // blog Section
+
+  .blogMain {
+    flex-direction: column-reverse;
+  }
+
+  .rightSideBlog {
+    right: -200px;
+  }
+  .leftSideBlog {
+    width: 90%;
+  }
+
+  .leftSideBlog img {
+    display: none;
+  }
+
+  .ourMissionRecent {
+    height: 400px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 227px;
+
+  }
+  
+}
+@media (max-width: 880px) {
+
+  .aboutTop, .aboutBottom {
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 780px) {
+  .homeHeader h1 {
+    font-size: 6rem;
+}
+}

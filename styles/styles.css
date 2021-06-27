@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -566,6 +567,23 @@ header ul {
           flex: 1 2 auto;
 }
 
+.ourMissionRecent h4 {
+  font-family: "Walter Turncoat", cursive;
+}
+
+.recentPosts ul {
+  list-style: none;
+}
+
+.recentPosts li::before {
+  content: "•";
+  color: greenyellow;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .ourMission, .recentPosts {
   padding: 20px;
 }
@@ -651,6 +669,11 @@ header ul {
   width: 90%;
 }
 
+.postComment input[type=submit]:active,
+.postComment input[type=submit]:focus {
+  border: 3px solid #EB6856;
+}
+
 .contactHeader {
   background-image: url(./funplace-assets/contact-header.jpg);
 }
@@ -675,7 +698,7 @@ header ul {
   width: 65%;
   margin-left: 29%;
   position: absolute;
-  right: 50;
+  right: 50px;
   bottom: 150px;
   -webkit-box-shadow: 15px 15px #08FDED;
           box-shadow: 15px 15px #08FDED;
@@ -763,4 +786,89 @@ input[type=submit] {
 
 .fab {
   padding: 20px 10px;
+}
+
+input[type=submit]:active,
+input[type=submit]:focus {
+  border: 3px solid #EB6856;
+}
+
+@media (max-width: 1240px) {
+  .homeHeader img {
+    display: none;
+  }
+
+  .homeHeader h1 {
+    font-size: 10rem;
+  }
+
+  .moreAboutContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 100px;
+  }
+
+  .ourPrograms, .newLocations {
+    width: 100%;
+  }
+
+  .newLocations button {
+    margin: 0;
+  }
+
+  .contactSection {
+    height: 110vh;
+  }
+
+  .contactFormContainer {
+    width: 90%;
+    right: 50px;
+    bottom: 150px;
+  }
+
+  .contactInfo {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .blogMain {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .rightSideBlog {
+    right: -200px;
+  }
+
+  .leftSideBlog {
+    width: 90%;
+  }
+
+  .leftSideBlog img {
+    display: none;
+  }
+
+  .ourMissionRecent {
+    height: 400px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 227px;
+  }
+}
+@media (max-width: 880px) {
+  .aboutTop, .aboutBottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 780px) {
+  .homeHeader h1 {
+    font-size: 6rem;
+  }
 }

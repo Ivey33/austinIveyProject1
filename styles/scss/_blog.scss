@@ -46,6 +46,23 @@ header ul {
   flex: 1 2 auto;
 }
 
+.ourMissionRecent h4 {
+  font-family: $fontWalter;
+}
+
+.recentPosts ul {
+  list-style: none;
+}
+
+.recentPosts li::before {
+  content: "\2022";  
+  color: greenyellow; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+}
+
 .ourMission, .recentPosts {
   padding: 20px;
 }
@@ -132,6 +149,11 @@ font-family: $fontWalter;
 align-self: flex-start;
 cursor: pointer;
 width: 90%;
+}
+
+.postComment input[type="submit"]:active,
+.postComment input[type="submit"]:focus  {
+    border:3px solid #EB6856;
 }
 
 // footer

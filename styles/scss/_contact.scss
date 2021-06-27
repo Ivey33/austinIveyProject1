@@ -16,8 +16,6 @@
     background-color: $deepTurq;
     height: 60vh;
     position: relative;
-
-
   }
 
   .contactFormContainer{
@@ -26,7 +24,7 @@
     width: 65%;
     margin-left: 29%;
     position: absolute;
-    right: 50;
+    right: 50px;
     bottom:150px;
     box-shadow:15px 15px $brightAqua ;
 }
@@ -85,6 +83,8 @@ input[type="submit"] {
   width: 90%;
 }
 
+// Info
+
 .contactInfo {
   margin-left:5% ;
   padding:100px 0;
@@ -105,4 +105,9 @@ input[type="submit"] {
 }
 .fab {
   padding:20px 10px;
+}
+
+input[type="submit"]:active,
+input[type="submit"]:focus  {
+    border:3px solid #EB6856;
 }
