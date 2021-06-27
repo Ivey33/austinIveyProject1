@@ -1,0 +1,137 @@
+// Header
+
+.blogHeader {
+  background-image: url(./funplace-assets/blog-header.jpg);
+  background-size: cover;
+}
+
+.blogHeader h1 {
+  padding-top: 4%;
+}
+
+header ul {
+  padding:0;
+}
+
+// main
+
+.blogMain {
+  background-color: $deepTurq;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.leftSideBlog {
+  width: 25%;
+  position: relative;
+}
+
+.rightSideBlog {
+  width: 60%;
+  position: relative;
+  top:-300px;
+  right: 0;
+}
+
+// left side
+
+.ourMissionRecent {
+  background-color: $frenchBlue;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 100px;
+  margin-left: 55px;
+  flex: 1 2 auto;
+}
+
+.ourMission, .recentPosts {
+  padding: 20px;
+}
+
+.leftSideBlog img{
+  position: absolute;
+  top:66px;
+  left:-44px;
+}
+
+// right side
+
+// new Activities 
+
+
+
+.newAct img {
+  box-shadow: -15px 15px $brightAqua;
+}
+
+.newActText {
+  box-shadow: -5px 5px $brightAqua;  
+  padding: 20px 100px;
+  margin-left: -10px;
+}
+
+// comment section
+.comments {
+  padding: 20px 100px
+}
+
+.comments h3 {
+  font-family: $fontRoboto;
+  font-size: 24px;
+}
+.comment1, .comment2 {
+  display: flex;
+  justify-content:space-between ;
+  position: relative;
+}
+
+.comment1Img, .comment2Img {
+  width: 20%;
+  position: relative;
+  top: 27px;
+  left:0;
+}
+
+.comment1Text, .comment2Text {
+  width: 75%;
+  
+}
+
+// blog form
+
+.postComment{
+  background: none;
+  padding: 40px;
+  width: 100%;
+
+}
+
+.postComment input,
+.postComment textarea {
+background:none;
+color: white;
+padding: 20px;
+width: 90%;
+}
+
+.postComment input[type="text"], .postComment input[type="email"] { 
+border-bottom: 1px solid $brightAqua;
+}
+
+.postComment textarea {
+  border: 1px solid $brightAqua;
+}
+
+.postComment input[type="submit"] {
+background-color:$brightAqua;
+color: $darkishBlue;
+padding: 15px 30px;
+font-family: $fontWalter;
+align-self: flex-start;
+cursor: pointer;
+width: 90%;
+}
+
+// footer

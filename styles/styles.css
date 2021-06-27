@@ -421,7 +421,7 @@ button {
   gap: 60px;
 }
 
-.moreAbout h2, .roadTrip h2, .events h2 {
+.moreAbout h2, .roadTrip h2, .events h2, .newActText h2, .comments h2 {
   font-family: "Walter Turncoat", cursive;
   font-size: 40px;
   line-height: 41.6px;
@@ -509,6 +509,146 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+.blogHeader {
+  background-image: url(./funplace-assets/blog-header.jpg);
+  background-size: cover;
+}
+
+.blogHeader h1 {
+  padding-top: 4%;
+}
+
+header ul {
+  padding: 0;
+}
+
+.blogMain {
+  background-color: #03697C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.leftSideBlog {
+  width: 25%;
+  position: relative;
+}
+
+.rightSideBlog {
+  width: 60%;
+  position: relative;
+  top: -300px;
+  right: 0;
+}
+
+.ourMissionRecent {
+  background-color: #474BB5;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 100px;
+  margin-left: 55px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 2 auto;
+          flex: 1 2 auto;
+}
+
+.ourMission, .recentPosts {
+  padding: 20px;
+}
+
+.leftSideBlog img {
+  position: absolute;
+  top: 66px;
+  left: -44px;
+}
+
+.newAct img {
+  -webkit-box-shadow: -15px 15px #08FDED;
+          box-shadow: -15px 15px #08FDED;
+}
+
+.newActText {
+  -webkit-box-shadow: -5px 5px #08FDED;
+          box-shadow: -5px 5px #08FDED;
+  padding: 20px 100px;
+  margin-left: -10px;
+}
+
+.comments {
+  padding: 20px 100px;
+}
+
+.comments h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.comment1, .comment2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.comment1Img, .comment2Img {
+  width: 20%;
+  position: relative;
+  top: 27px;
+  left: 0;
+}
+
+.comment1Text, .comment2Text {
+  width: 75%;
+}
+
+.postComment {
+  background: none;
+  padding: 40px;
+  width: 100%;
+}
+
+.postComment input,
+.postComment textarea {
+  background: none;
+  color: white;
+  padding: 20px;
+  width: 90%;
+}
+
+.postComment input[type=text], .postComment input[type=email] {
+  border-bottom: 1px solid #08FDED;
+}
+
+.postComment textarea {
+  border: 1px solid #08FDED;
+}
+
+.postComment input[type=submit] {
+  background-color: #08FDED;
+  color: #044779;
+  padding: 15px 30px;
+  font-family: "Walter Turncoat", cursive;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  cursor: pointer;
+  width: 90%;
 }
 
 .contactHeader {

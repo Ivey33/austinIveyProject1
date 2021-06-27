@@ -16,7 +16,6 @@ p{
 img {
   width: 100%;
 }
-
 // header sections
 
 header {
@@ -169,7 +168,7 @@ button {
   gap: 60px;  
 }
 
-.moreAbout h2, .roadTrip h2, .events h2 {
+.moreAbout h2, .roadTrip h2, .events h2, .newActText h2, .comments h2  {
   font-family: $fontWalter;
   font-size: 40px;
   line-height: 41.6px;
