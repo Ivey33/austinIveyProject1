@@ -1,8 +1,8 @@
 @import 'setup';
 @import 'variables';
-
-body {
-  background-color: yellow;
-  color: blue;
-}
+@import 'home';
+@import 'blog';
+@import 'contact';
+@import 'homeJs';
+@import 'mediaQ';
 

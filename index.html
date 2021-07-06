@@ -4,25 +4,149 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles/scss/styles.css">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="./styles/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Walter+Turncoat&display=swap" rel="stylesheet"> 
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/1636792d7e.js" crossorigin="anonymous"></script>
+  </head>
 <body>
-  <header>
-    <div class="wrapper">
+  <header class="homeHeader">
+    <div class="wrapper headerContainer">
       <nav class="headerNav">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="./index.html">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
-      <h1>FunPlace</h1>
+      <h1 class="homeH1">FunPlace</h1>
     </div>
+    <img src="./styles/funplace-assets/home-box-header.jpg" alt="kid on a skateboard">
   </header>
+  <main>
+    <section class="about">
+      <div class="wrapper aboutContainer">
+        <div class="aboutTop">
+          <div class="newSpace">
+            <div class="icons newSpaceIcon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h2>New Space</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque sed iure quae porro repellat, hic, illo ad quidem fugit amet, deserunt aperiam. Totam tempora sint, dolor voluptate consequuntur praesentium est.</p>
+          </div>
+          <div class="community">
+            <div class="icons communityIcon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h2>Community</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque sed iure quae porro repellat, hic, illo ad quidem fugit amet, deserunt aperiam. Totam tempora sint, dolor voluptate consequuntur praesentium est.</p>
+          </div>
+        </div>
+        <div class="aboutBottom">
+          <div class="blog">
+            <div class="icons blogIcon">
+              <i class="fas fa-file"></i>
+            </div>
+            <h2>Blog</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque sed iure quae porro repellat, hic, illo ad quidem fugit amet, deserunt aperiam. Totam tempora sint, dolor voluptate consequuntur praesentium est.</p>
+          </div>
+          <div class="getInTouch">
+            <div class="icons getInTouchIcon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque sed iure quae porro repellat, hic, illo ad quidem fugit amet, deserunt aperiam. Totam tempora sint, dolor voluptate consequuntur praesentium est.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="moreAbout">
+      <div class="wrapper moreAboutContainer">
+        <div class="newLocations">
+          <div class="newLocationsImg">
+            <img src="./styles/funplace-assets/left-image.jpg" alt="female kid smiling bif for camera">
+          </div>
+          <div class="newLocationsText">
+            <h2>New Locations</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat alias, qui necessitatibus totam cupiditate laudantium iusto voluptate dignissimos sint voluptatem repellendus magnam. Expedita iusto autem deserunt iure, maiores quis.</p>
+            <button>Read More</button>
+          </div>
+            <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, repudiandae eaque! Cumque similique repellat, iste quidem accusantium fugiat maxime voluptatem eaque ut quibusdam minima nisi quae. Vel laboriosam impedit facere Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatum repellendus corporis nobis illum unde quidem esse, sit reprehenderit assumenda pariatur officiis culpa magnam corrupti sed modi iste veritatis quia?</p>
+            </div>
+          
+          </div>
+        </div>        
+        <div class="ourPrograms">
+          <div class="ourProgramText">
+            <h2>Our Programs</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat alias, qui necessitatibus totam cupiditate laudantium iusto voluptate dignissimos sint voluptatem repellendus magnam. Expedita iusto autem deserunt iure, maiores quis.</p>
+            <button>Read More</button>
+          </div>
+                    <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, repudiandae eaque! Cumque similique repellat, iste quidem accusantium fugiat maxime voluptatem eaque ut quibusdam minima nisi quae. Vel laboriosam impedit facere Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatum repellendus corporis nobis illum unde quidem esse, sit reprehenderit assumenda pariatur officiis culpa magnam corrupti sed modi iste veritatis quia?</p>
+            </div>
+          
+          </div>
+          <div class="ourProgamImg">
+            <img src="./styles/funplace-assets/right-image.jpg" alt="kid playing a game">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="roadTrip">
+      <div class="wrapper roatTripContainer">
+        <h2>Road Trips Anyone?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas esse ullam fugiat, unde aliquam amet. Fugit doloremque tempore sunt autem, quisquam, temporibus quibusdam odio, quaerat vero nobis maxime nesciunt accusamus?</p>
+        <button>Find out More</button>
+      </div>
+    </section>
+    <div class="roadTripImg">
+        
+    </div>
+    <section class="events">
+      <div class="wrapper eventsContainer">
+        <div class="eventsImg">
+          <img src="./styles/funplace-assets/small-box.jpg" alt="">
+        </div>
+        <div class="eventsText">
+          <h2>Events</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolor beatae impedit delectus facere cupiditate id ipsum odit ipsa voluptatibus doloribus, sequi provident. Minus tempore nam ipsum dolorem libero nemo!</p>
+          <button>Find out More</button>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="wrapper galleryContainer">
+        <img src="./styles/funplace-assets/gallery-image-1.jpg" alt="Slide in a park">
+        <img src="./styles/funplace-assets/gallery-image-2.jpg" alt="child peaking out from fort">
+        <img src="./styles/funplace-assets/gallery-image-3.jpg" alt="kids playing tug a war">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright <span><i class="far fa-copyright"></i></span> 2019 Hacker You</p>
+  </footer>
+
+
+
 </body>
+
+
+<script src="script.js"></script>
+
 </html>
