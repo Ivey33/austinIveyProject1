@@ -406,6 +406,14 @@ button {
           justify-content: space-between;
 }
 
+.ourProgamImg {
+  margin-right: -70px;
+}
+
+.newLocationsImg {
+  margin-left: -70px;
+}
+
 .ourPrograms, .newLocations {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -791,6 +799,46 @@ input[type=submit] {
 input[type=submit]:active,
 input[type=submit]:focus {
   border: 3px solid #EB6856;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 300px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #03697C;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  -webkit-box-shadow: 15px 15px #08FDED;
+          box-shadow: 15px 15px #08FDED;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1240px) {
